@@ -1,0 +1,30 @@
+2018:05:26 13:25:57.681 INFO  --- [main] com.shop.Application : Starting Application on DESKTOP-NVS2M80 with PID 11348 (C:\workspace\springboot\spring-boot-shop\target\classes started by kimhk0 in C:\workspace\springboot\spring-boot-shop) 
+2018:05:26 13:25:57.696 INFO  --- [main] com.shop.Application : No active profile set, falling back to default profiles: default 
+2018:05:26 13:25:57.849 INFO  --- [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399c4be1: startup date [Sat May 26 13:25:57 KST 2018]; root of context hierarchy 
+2018:05:26 13:26:00.395 INFO  --- [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http) 
+2018:05:26 13:26:00.421 INFO  --- [main] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2018:05:26 13:26:00.423 INFO  --- [main] o.a.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.15 
+2018:05:26 13:26:00.806 INFO  --- [localhost-startStop-1] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2018:05:26 13:26:00.813 INFO  --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2018:05:26 13:26:00.824 INFO  --- [localhost-startStop-1] o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 2975 ms 
+2018:05:26 13:26:01.175 INFO  --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/] 
+2018:05:26 13:26:01.181 INFO  --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018:05:26 13:26:01.184 INFO  --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018:05:26 13:26:01.193 INFO  --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018:05:26 13:26:01.193 INFO  --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*] 
+2018:05:26 13:26:02.286 INFO  --- [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399c4be1: startup date [Sat May 26 13:25:57 KST 2018]; root of context hierarchy 
+2018:05:26 13:26:02.445 INFO  --- [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/product],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.shop.controller.ProductController.getProductsView(int,int,int) 
+2018:05:26 13:26:02.461 INFO  --- [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018:05:26 13:26:02.469 INFO  --- [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018:05:26 13:26:02.560 INFO  --- [main] o.s.w.s.h.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018:05:26 13:26:02.561 INFO  --- [main] o.s.w.s.h.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018:05:26 13:26:02.653 INFO  --- [main] o.s.w.s.h.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018:05:26 13:26:03.115 INFO  --- [main] o.s.j.e.a.AnnotationMBeanExporter : Registering beans for JMX exposure on startup 
+2018:05:26 13:26:03.361 INFO  --- [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http) 
+2018:05:26 13:26:03.370 INFO  --- [main] com.shop.Application : Started Application in 6.417 seconds (JVM running for 7.41) 
+2018:05:26 13:26:12.635 INFO  --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet' 
+2018:05:26 13:26:12.644 INFO  --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet : FrameworkServlet 'dispatcherServlet': initialization started 
+2018:05:26 13:26:12.698 INFO  --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet : FrameworkServlet 'dispatcherServlet': initialization completed in 45 ms 
+2018:05:26 14:13:06.181 INFO  --- [RMI TCP Connection(2)-192.168.0.7] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested. 
+2018:05:26 14:13:06.196 INFO  --- [RMI TCP Connection(2)-192.168.0.7] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399c4be1: startup date [Sat May 26 13:25:57 KST 2018]; root of context hierarchy 
+2018:05:26 14:13:06.227 INFO  --- [RMI TCP Connection(2)-192.168.0.7] o.s.j.e.a.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown 
