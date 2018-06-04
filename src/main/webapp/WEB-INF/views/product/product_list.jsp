@@ -4,6 +4,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-${count }
+카운트 : ${count }
 </body>
 </html>
